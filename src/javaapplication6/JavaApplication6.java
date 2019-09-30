@@ -14,6 +14,29 @@ public class JavaApplication6 {
   class usuario{
       private String nombre;
       private String ID;
+
+        public usuario(String nombre, String ID) {
+            this.nombre = nombre;
+            this.ID = ID;
+        }
+
+        public String getNombre() {
+            return nombre;
+        }
+
+        public void setNombre(String nombre) {
+            this.nombre = nombre;
+        }
+
+        public String getID() {
+            return ID;
+        }
+
+        public void setID(String ID) {
+            this.ID = ID;
+        }
+
+      
       
   }
     
