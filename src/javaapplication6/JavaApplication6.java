@@ -14,6 +14,9 @@ public class JavaApplication6 {
   class usuario{
       private String nombre;
       private String ID;
+      public usuario(){
+      this.nombre="NN";
+      this.ID="NN";  
       
   }
     
